@@ -5,10 +5,10 @@ No curso será apresentado uma nova metodologia de pesquisa para o estudo das re
 
 ## Pré-requisitos
 - Instalar R com versão igual ou superior à 3.5:
-```
-Instalar no [Windows](https://cran.r-project.org/bin/windows/base/)
-Instalar no [Ubuntu-18.04](https://rtask.thinkr.fr/installation-of-r-3-5-on-ubuntu-18-04-lts-and-tips-for-spatial-packages/)
-```
+
+    - Instalar no [Windows](https://cran.r-project.org/bin/windows/base/)
+
+    - Instalar no [Ubuntu-18.04](https://rtask.thinkr.fr/installation-of-r-3-5-on-ubuntu-18-04-lts-and-tips-for-spatial-packages/)
 
 Dentro do Console do R instalar os seguintes pacotes:
 - Bibliometrix
@@ -29,19 +29,18 @@ Dentro do Console do R instalar os seguintes pacotes:
 Instalar o CmapTools e o Mendeley:
 
 - CmapTools
-  ```
-  Instalar no [Windows](https://cmaptools.br.uptodown.com/windows)
-  Instalar no [Ubuntu-18.04](https://cmap.ihmc.us/cmaptools/cmaptools-download/)
-  $ cd ~/Downloads
-  $ chmod +x CmapTools.bin
-  $ ./CmapTools.bin
-  ```
+  - Instalar no [Windows](https://cmaptools.br.uptodown.com/windows)
 
+  - Instalar no [Ubuntu-18.04](https://cmap.ihmc.us/cmaptools/cmaptools-download/)
+    ```
+    $ cd ~/Downloads
+    $ chmod +x CmapTools.bin
+    $ ./CmapTools.bin
+    ```
 - Mendeley
-  ```
-  Instalar no [Windows](https://www.mendeley.com/download-desktop-new/)
-  Instalar no [Ubuntu-18.04](https://www.mendeley.com/guides/download-mendeley-desktop/ubuntu/instructions)
-  ```
+  - Instalar no [Windows](https://www.mendeley.com/download-desktop-new/)
+  - Instalar no [Ubuntu-18.04](https://www.mendeley.com/guides/download-mendeley-desktop/ubuntu/instructions)
+
 
 
 # Documentação
