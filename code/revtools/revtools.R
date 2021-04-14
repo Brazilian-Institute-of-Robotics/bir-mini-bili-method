@@ -4,7 +4,7 @@ library(revtools)
 data <- read_bibliography("~/Desktop/Document/revtools/scopusfinal_example.bib")
 View(data) # Vê o dado previamente
 
-#Quando terminar irá salvar um arquivo no formato .csv
+#Quando terminar irá salvar um arquivo no formato .csv na raiz do sistema
 result <- screen_abstracts(data)
 
 #Lê os resultados

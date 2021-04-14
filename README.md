@@ -9,6 +9,9 @@ No curso será apresentado uma nova metodologia de pesquisa para o estudo das re
     - Instalar no [Windows](https://cran.r-project.org/bin/windows/base/)
 
     - Instalar no [Ubuntu-18.04](https://rtask.thinkr.fr/installation-of-r-3-5-on-ubuntu-18-04-lts-and-tips-for-spatial-packages/)
+    
+    - Instalar o [RStudio](https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/)
+
 
 Dentro do Console do R instalar os seguintes pacotes:
 - Bibliometrix
@@ -18,10 +21,14 @@ Dentro do Console do R instalar os seguintes pacotes:
 
 - LitSearchR
   ```
+  install.packages("remotes")
+
   remotes::install_github("elizagrames/litsearchr", ref="main")
+  install.packages("devtools")
   ```
 
 - RevTools
+  - No terminal rode este comando antes: `sudo apt-get install gsl-bin libgsl0-dev`
   ```
   install.packages("revtools")
   ```
@@ -40,7 +47,6 @@ Instalar o CmapTools e o Mendeley:
 - Mendeley
   - Instalar no [Windows](https://www.mendeley.com/download-desktop-new/)
   - Instalar no [Ubuntu-18.04](https://www.mendeley.com/guides/download-mendeley-desktop/ubuntu/instructions)
-
 
 
 # Documentação

@@ -291,11 +291,11 @@ new_results <-
 # incluídos na nova pesquisa, deve-se obter os mesmos artigos de volta entre 
 # os novos resultados.
 
-naive_results %>%
+naiveresults %>%
   mutate(in_new_results=title %in% new_results[, "title"]) ->
-  naive_results
+  naiveresults
 
-naive_results %>%
+naiveresults %>%
   filter(!in_new_results) %>%
   select(title, keywords)
 
