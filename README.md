@@ -62,7 +62,11 @@ Instalar o CmapTools e o Mendeley:
 - [RevTools](https://cran.r-project.org/web/packages/revtools/revtools.pdf)
 
 # Palestrante
-- Anderson Queiroz tem graduação em Engenharia da Computação pela Universidade Estadual de Feira de Santana (UEFS). Em sua graduação trabalhou nos projetos de um Estimador de Posição e Atitude para um VANT, utilizando microcontroladores PIC, foi monitor das disciplinas de Circuitos Elétricos e Eletrônicos, Circuitos Digitais e Introdução a Eletrônica. Participou do programa de intercâmbio, custeado pela própria universidade, em Portugal, Lisboa. Sua linha de pesquisa de conclusão de curso foi dirigida na área de processamento digital de sinais, com a aplicação direcionada a biometria de voz utilizando uma rede neural. Foi estagiário na empresa MSC Engenharias por 6 meses para automação do processo de prensas hidráulicas. Após a graduação trabalhou na empresa Gerenciagram por 1 ano e 6 meses na área de aplicações web utilizando Python, PHP, banco de dados SQL e servidores Armazon. Tem especialização na área de Robótica e Sistemas Autônomos do Laboratório de Robótica do Senai Cimatec.
+- Anderson Queiroz tem graduação em Engenharia da Computação pela Universidade Estadual de Feira de Santana (UEFS). Em sua graduação trabalhou nos projetos de um Estimador de Posição e Atitude para um VANT, utilizando microcontroladores PIC, foi monitor das disciplinas de Circuitos Elétricos e Eletrônicos, Circuitos Digitais e Introdução a Eletrônica. Participou do programa de intercâmbio, custeado pela própria universidade, em Portugal, Lisboa. Sua linha de pesquisa de conclusão de curso foi dirigida na área de processamento digital de sinais, com a aplicação direcionada a biometria de voz utilizando uma rede neural. Foi estagiário na empresa MSC Engenharias por 6 meses para automação do processo de prensas hidráulicas. Após a graduação trabalhou na empresa Gerenciagram por 1 ano e 6 meses na área de aplicações web utilizando Python, PHP, banco de dados SQL e servidores Amazon. Tem especialização na área de Robótica e Sistemas Autônomos do Laboratório de Robótica do Senai Cimatec.
 
 # Agradecimentos
 Ao [Senai-Cimatec](http://www.senaicimatec.com.br/) por proporcionar esta oportunidade ímpar de aprendizado. Agradecemos a todos os envolvidas neste projeto e a toda equipe do Laboratório Robótica e Sistema Autônomos.
+
+## Mantenedores
+- Anderson Vale (anderson_qdv@hotmail.com)
+- Marco Reis (marcoreis@fieb.org.br)
