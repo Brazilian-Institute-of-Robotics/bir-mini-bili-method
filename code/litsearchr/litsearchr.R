@@ -17,7 +17,7 @@ packageVersion("litsearchr")
 # Conference papers e articles na linguagem inglês
 
 # As buscas foram realizadas nas bases de dados Compendex, IEEE e Scopus
-search_directory <- "/home/bir/Desktop/AUM/bases"
+search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
 
 # Importa os dados das três bases, formando um único dataset
 naiveimport <-
@@ -272,7 +272,7 @@ write_search(
 # Carregndo o resultado
 
 # As buscas foram realizadas nas bases de dados Compendex, IEEE e Scopus
-new_search_directory <- "~/Downloads/Odometria visual/bib_anderson/new"
+new_search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
 
 # Importa os dados das três bases, formando um único dataset
 new_results <-
