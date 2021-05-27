@@ -6,12 +6,18 @@ No curso será apresentado uma nova metodologia de pesquisa para o estudo das re
 ## Pré-requisitos
 - Instalar R com versão igual ou superior à 3.5:
 
-    - Instalar no [Windows](https://cran.r-project.org/bin/windows/base/)
+    - Instalar R: 
+      - [Windows](https://cran.r-project.org/bin/windows/base/)
 
-    - Instalar no [Ubuntu-18.04](https://rtask.thinkr.fr/installation-of-r-3-5-on-ubuntu-18-04-lts-and-tips-for-spatial-packages/)
+      - [Ubuntu-18.04](https://rtask.thinkr.fr/installation-of-r-3-5-on-ubuntu-18-04-lts-and-tips-for-spatial-packages/)
+
+      - [Ubuntu-20.04](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-20-04-pt)
+
     
-    - Instalar o [RStudio](https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/)
+    - Instalar RStudio:
+      - [Ubuntu-18.04](https://www.rstudio.com/products/rstudio/download/)
 
+      - [Ubuntu-20.04](https://linuxconfig.org/how-to-install-rstudio-on-ubuntu-20-04-focal-fossa-linux)
 
 Dentro do Console do R instalar os seguintes pacotes:
 - Bibliometrix
