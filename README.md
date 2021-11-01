@@ -4,7 +4,7 @@
   <img src="./img/default.png" alt="Size Limit CLI" width="738">
 </p>
 
-## How To Use
+### How To Use
 
 To clone and run this beamer, follow command line above:
 
@@ -76,24 +76,24 @@ Instalar o CmapTools e o Mendeley:
 
 > Além destas orientações acima o curso foi elaborado também no [Google Colab](https://drive.google.com/file/d/1Cb06gWAdtyAJgm9FN6dLEneo1l3pZq6f/view?usp=sharing)
 
-# Documentação
+### Documentação
 
 - [Bibliometrix](https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf)
 - [LitSearchR](https://elizagrames.github.io/litsearchr/#tutorials)
 - [RevTools](https://cran.r-project.org/web/packages/revtools/revtools.pdf)
 
-# Palestrante
+## Palestrante
 - Anderson Queiroz tem graduação em Engenharia da Computação pela Universidade Estadual de Feira de Santana (UEFS). Em sua graduação trabalhou nos projetos de um Estimador de Posição e Atitude para um VANT, utilizando microcontroladores PIC, foi monitor das disciplinas de Circuitos Elétricos e Eletrônicos, Circuitos Digitais e Introdução a Eletrônica. Participou do programa de intercâmbio, custeado pela própria universidade, em Portugal, Lisboa. Sua linha de pesquisa de conclusão de curso foi dirigida na área de processamento digital de sinais, com a aplicação direcionada a biometria de voz utilizando uma rede neural. Foi estagiário na empresa MSC Engenharias por 6 meses para automação do processo de prensas hidráulicas. Após a graduação trabalhou na empresa Gerenciagram por 1 ano e 6 meses na área de aplicações web utilizando Python, PHP, banco de dados SQL e servidores Amazon. Tem especialização na área de Robótica e Sistemas Autônomos do Laboratório de Robótica do Senai Cimatec.
 - [Marco Reis](https://mhar-vell.github.io/portfolio/) tem 20 anos de experiência em gestão industrial, incluindo a implementação de duas fábricas de automóveis no Brasil (Renault e Ford), bem como na indústria siderúrgica, geração de energia, automação e robótica, especialmente na ABB. Marco desenvolveu projetos nas áreas de ferramentas robóticas e manipuladores, equipamentos autônomos, gerenciamento de ativos, RCM, TPM, confiabilidade e manutenção em equipamentos críticos. Atualmente é pesquisador sênior do Senai Cimatec coordenando projetos de robótica e liderando o grupo de robótica no Senai Cimatec em parceria com o Instituto Alemão de Inteligência Artificial (DFKI). Seu foco de interesse em pesquisa é em autonomia e confiabilidade aplicadas em robôs.
 
-# Agradecimentos
+### Agradecimentos
 Ao [Senai-Cimatec](http://www.senaicimatec.com.br/) por proporcionar esta oportunidade ímpar de aprendizado. Agradecemos a todos os envolvidas neste projeto, assim como a equipe do Centro de Competências em Robótica e Sistema Autônomos.
 
-## Mantenedores
+### Mantenedores
 - Anderson Vale (anderson_qdv@hotmail.com)
 - Marco Reis (marcoreis@fieb.org.br)
 
-## Important
+#### Important
 Presentation better to view on **[Okular]**
 
 [Okular]: https://okular.kde.org
