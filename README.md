@@ -74,7 +74,7 @@ Instalar o CmapTools e o Mendeley:
   - Instalar no [Windows](https://www.mendeley.com/download-desktop-new/)
   - Instalar no [Ubuntu-20.04](https://www.mendeley.com/guides/download-mendeley-desktop/ubuntu/instructions)
 
-> Além destas orientações acima o curso foi elaborado também no [Google Colab](https://drive.google.com/file/d/1Cb06gWAdtyAJgm9FN6dLEneo1l3pZq6f/view?usp=sharing)
+> Além destas orientações acima o curso foi elaborado também no [Google Colab](https://drive.google.com/file/d/1Cb06gWAdtyAJgm9FN6dLEneo1l3pZq6f/view?usp=sharing).
 
 ### Documentação
 
