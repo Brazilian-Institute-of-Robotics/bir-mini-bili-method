@@ -10,6 +10,15 @@ library(bibliometrix)
 library(litsearchr)
 packageVersion("litsearchr")
 
+#//todo resolver o caso
+#//valar alden power
+#//checked caso resolvido
+
+#//note a solução foi bem apresentada
+
+
+
+
 # Utilizando uma string  ingênua de busca para obter um conjunto de artigos relevantes
 #( ( TITLE-ABS-KEY ( "visual odometry" )  AND  ( TITLE-ABS-KEY ( "egomotion" )  OR  TITLE-ABS-KEY ( "pose estimation" )  OR  TITLE-ABS-KEY ( "robot localization" )  OR  TITLE-ABS-KEY ( "motion estimation" )  OR  TITLE-ABS-KEY ( "computer vision" ) ) )  AND  TITLE-ABS-KEY ( "mobile robots" ) ) 
 
@@ -18,7 +27,8 @@ packageVersion("litsearchr")
 
 # As buscas foram realizadas nas bases de dados Compendex, IEEE e Scopus
 #search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
-search_directory <- "/home/mhar-vell/Downloads/testebili"
+search_directory <- "/home/mhar-vell/Downloads/blackmouth/"
+search_directory <- "/home/mhar-vell/Downloads/walker/"
 
 # Importa os dados das três bases, formando um único dataset
 naiveimport <-
@@ -249,9 +259,9 @@ selected_terms
 
 
 grouped_terms <-list(
-  manipulator=selected_terms[c(17, 10, 22, 20)],
-  underwater=selected_terms[c(10, 11, 13, 12, 15)],
-  techniques=selected_terms[c(3, 4, 6, 9, 8)]
+  manipulator=selected_terms[c(31, 32, 27, 37, 79, 95, 94)],
+  underwater=selected_terms[c(28, 39)],
+  techniques=selected_terms[c(4, 5, 14, 15, 16)]
 )
 
 grouped_terms
@@ -266,7 +276,6 @@ write_search(
   closure="left",
   writesearch=TRUE
 )
-
 
 yes
 ########## Verificando o novo resultado

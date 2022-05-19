@@ -1,0 +1,1 @@
+\(\("mechanical design" OR "mechanism design" OR "leg mechanism" OR "quadruped robot" OR "legged robot" OR "robotic system" OR "robot walking"\) AND \("legged locomotion" OR "quadruped walking"\) AND \("central pattern generator" OR "gait control" OR "gait pattern" OR "gait planning"\)\)
