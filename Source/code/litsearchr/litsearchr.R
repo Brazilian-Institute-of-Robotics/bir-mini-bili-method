@@ -7,6 +7,9 @@ library(readr)
 library(devtools)
 library(bibliometrix)
 
+library(remotes)
+install_github("elizagrames/litsearchr", ref="main")
+
 library(litsearchr)
 packageVersion("litsearchr")
 
@@ -17,7 +20,9 @@ packageVersion("litsearchr")
 # Conference papers e articles na linguagem inglês
 
 # As buscas foram realizadas nas bases de dados Compendex, IEEE e Scopus
-search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
+# as bases devem estar todas no mesmo diretório
+#search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
+search_directory <- "/home/mhar-vell/Insync/marco.a.reis@gmail.com/Google Drive/doctorate/MCTI-phd/tese-mcti/bir-mini_bili-method/Source/code/litsearchr/example"
 
 # Importa os dados das três bases, formando um único dataset
 naiveimport <-

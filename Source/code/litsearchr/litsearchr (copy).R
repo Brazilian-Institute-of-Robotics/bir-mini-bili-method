@@ -18,7 +18,8 @@ packageVersion("litsearchr")
 
 # As buscas foram realizadas nas bases de dados Compendex, IEEE e Scopus
 #search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
-search_directory <- "/home/mhar-vell/Downloads/testebili"
+#search_directory <- "/home/mhar-vell/Downloads/"
+search_directory <- "/home/mhar-vell/Insync/marco.a.reis@gmail.com/Google Drive/education/palestras&cursos/bir-mini_bili-method/Source/code/litsearchr/example"
 
 # Importa os dados das três bases, formando um único dataset
 naiveimport <-
@@ -29,7 +30,7 @@ naiveresults <-
   litsearchr::remove_duplicates(naiveimport, field = "title", method = "string_osa")
 
 # Importa as stop words pre definidas e adiciona uma lista de stopwords criadas
-stopwrlds <- c("advances","analyse","analysed","analyses",
+stopworlds <- c("advances","analyse","analysed","analyses",
                "analysing","analysis","analyze","analyzes",
                "analyzed","analyzing", "approach", "assess","assessed",
                "assesses","assessing","assessment","assessments",
@@ -62,7 +63,7 @@ stopwrlds <- c("advances","analyse","analysed","analyses",
                "treating","treatment","treatments","treats",
                "trial","trials","versus")
 
-all_stopwords <- c(get_stopwords("English"), stopwrlds)
+all_stopwords <- c(get_stopwords("English"), stopworlds)
 
 
 
@@ -209,6 +210,7 @@ cutoff_fig +
 get_keywords(reduce_graph(naivegraph, cutoff_cum))
 
 
+
 ######### Changepoints
 
 # Existem certos pontos ao longo da classificação de termos onde a "força" do próximo termo 
@@ -249,9 +251,9 @@ selected_terms
 
 
 grouped_terms <-list(
-  manipulator=selected_terms[c(17, 10, 22, 20)],
+  manipulator=selected_terms[c(5, 11, 16, 17, 19, 21, 22, 23, 25, 27)],
   underwater=selected_terms[c(10, 11, 13, 12, 15)],
-  techniques=selected_terms[c(3, 4, 6, 9, 8)]
+  techniques=selected_terms[c(2, 3, 6, 9, 8)]
 )
 
 grouped_terms
