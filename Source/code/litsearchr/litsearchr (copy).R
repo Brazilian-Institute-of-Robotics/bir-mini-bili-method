@@ -28,9 +28,10 @@ packageVersion("litsearchr")
 # As buscas foram realizadas nas bases de dados Compendex, IEEE e Scopus
 #search_directory <- "/home/anderson/Documentos/MinicursoBili/bir-mini-method-bili/code/litsearchr/example"
 #search_directory <- "/home/mhar-vell/Downloads/"
-search_directory <- "/home/mhar-vell/Insync/marco.a.reis@gmail.com/Google Drive/education/palestras&cursos/bir-mini_bili-method/Source/code/litsearchr/example"
-search_directory <- "/home/mhar-vell/Downloads/blackmouth/"
-search_directory <- "/home/mhar-vell/Downloads/walker/"
+# search_directory <- "/home/mhar-vell/Insync/marco.a.reis@gmail.com/Google Drive/education/palestras&cursos/bir-mini_bili-method/Source/code/litsearchr/example"
+# search_directory <- "/home/mhar-vell/Downloads/blackmouth/"
+# search_directory <- "/home/mhar-vell/Downloads/walker/"
+search_directory <- "/home/mhar-vell/Downloads/rei"
 
 # Importa os dados das três bases, formando um único dataset
 naiveimport <-
@@ -41,7 +42,7 @@ naiveresults <-
   litsearchr::remove_duplicates(naiveimport, field = "title", method = "string_osa")
 
 # Importa as stop words pre definidas e adiciona uma lista de stopwords criadas
-stopworlds <- c("advances","analyse","analysed","analyses",
+stopwords <- c("advances","analyse","analysed","analyses",
                "analysing","analysis","analyze","analyzes",
                "analyzed","analyzing", "approach", "assess","assessed",
                "assesses","assessing","assessment","assessments",
@@ -74,7 +75,7 @@ stopworlds <- c("advances","analyse","analysed","analyses",
                "treating","treatment","treatments","treats",
                "trial","trials","versus")
 
-all_stopwords <- c(get_stopwords("English"), stopworlds)
+all_stopwords <- c(get_stopwords("English"), stopwords)
 
 
 
@@ -262,12 +263,13 @@ selected_terms
 
 
 grouped_terms <-list(
-  manipulator=selected_terms[c(5, 11, 16, 17, 19, 21, 22, 23, 25, 27)],
-  underwater=selected_terms[c(10, 11, 13, 12, 15)],
-  techniques=selected_terms[c(2, 3, 6, 9, 8)]
-  manipulator=selected_terms[c(31, 32, 27, 37, 79, 95, 94)],
-  underwater=selected_terms[c(28, 39)],
-  techniques=selected_terms[c(4, 5, 14, 15, 16)]
+  # manipulator=selected_terms[c(5, 11, 16, 17, 19, 21, 22, 23, 25, 27)],
+  # underwater=selected_terms[c(10, 11, 13, 12, 15)],
+  # techniques=selected_terms[c(2, 3, 6, 9, 8)]
+  cement=selected_terms[c(2, 3, 4, 5, 6, 7, 8, 23, 25, 26, 28, 35, 36, 37, 48, 50, 51, 52)],
+  fiber=selected_terms[c(12, 13, 14, 20, 21, 22, 24, 27, 37, 38, 42, 43, 44, 45, 46, 47, 49, 53, 56, 57)],
+  physics=selected_terms[c(9, 15, 19, 30, 31, 32, 33, 40, 55)],
+  process=selected_terms[c(17, 18, 29)]
 )
 
 grouped_terms
@@ -282,7 +284,6 @@ write_search(
   closure="left",
   writesearch=TRUE
 )
-
 yes
 ########## Verificando o novo resultado
 
